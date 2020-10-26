@@ -41,7 +41,7 @@ This is a huge memory saver:<br>
 Disables some visual effects to free up memory.<br>
 `Search "advanced system settings" > Performance Settings > Adjust for best performance`<br>
 Disable everything **except** for smooth font. Unless you're fine with ugly fonts.<br>
-`Settings > Ease of Access > Vision > Display > Disable animations, transparency, and automatically hide scroll bars in Windows.<br>
+`Settings > Ease of Access > Vision > Display > Disable animations, transparency, and automatically hide scroll bars in Windows.`<br>
 `Settings > Personalization > Colors > OFF "Make Start, taskbar... transparent" and OFF others of your choice`<br>
 `Settings > Personalization > Start > Show more tiles OFF, Occasionaly show suggestions OFF`<br>
 Use a static wallpaper, preferably a simple color.<br>
