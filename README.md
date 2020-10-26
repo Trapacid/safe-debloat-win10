@@ -9,6 +9,11 @@ OEM bloatware is always the first culprit to a laggy system rather than Windows 
 
 `Search "Recovery options" > Reset this PC > Remove Everything > Only the drive where windows is installed`
 
+# Step 0.5: Do *not* use OEM drivers.
+Drivers provided by Windows Update go through major testing via [Windows Hardware Quality Labs (WHQL)](https://wikipedia.org/wiki/WHQL_Testing). Latest OEM drivers do not go through such testing immediately. Windows Update drivers are found to be largely much more stable, but may be a few versions behind. If you for some reason absolutely need some sort of functionality your OEM provides that Windows Update drivers don't provide at the moment, go right ahead. 
+
+**AND DO NOT USE DRIVER UTILITIES. EVEN INTEL DRIVER UPDATE UTILITIES.**
+
 <hr>
 
 ## Disabling and deleting in Settings
