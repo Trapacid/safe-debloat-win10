@@ -67,8 +67,8 @@ Settings > Privacy:
 - `Send your device data to Microsoft: Basic`
 
 ### 7. Disable automatic Microsoft Store app updates.
-`Store > user icon > Settings > Update apps automatically > OFF`<br>
-`Store > user icon > Settings > Show products on tile > OFF`
+`Store > top right button > Settings > Update apps automatically > OFF`<br>
+`Store > top right button > Settings > Show products on tile > OFF`
 
 ### 8. Disabling extra Settings
 `Settings > Updates & security > Windows Update > Advanced options > Disable everything.` *Do NOT pause updates.*<br>
