@@ -14,6 +14,11 @@ Drivers provided by Windows Update go through major testing via [Windows Hardwar
 
 **AND DO NOT USE DRIVER UTILITIES. EVEN INTEL DRIVER UPDATE UTILITIES.**
 
+### | A note about Windows 10 Long-Term Servicing Channel (LTSC or LTSB) |
+Microsoft states that LTSC/LTSB are not to be used by the consumer. In fact, licensing for these versions are only available through corporate Volume Licensing.<br>
+Users may find these versions "debloated", while they simply have UWP applications stripped of it. LTSC/B versions are made for only embedded or high stability needed devices such as machines using in hospitals or law enforcement usage.<br>
+Microsoft provides trial versions for these, but any usage of illegal activation is a violation of the EULA and TOS. Please stick to Windows 10 Home for proper support and stability.
+
 <hr>
 
 ## Disabling and deleting in Settings
@@ -90,10 +95,15 @@ Reboot your PC afterwards. See [here](https://docs.microsoft.com/en-us/troublesh
 ### 4. Enable high performance power profile in Power settings.
 If you don't mind the extra power usage, you should enable High Performance power profile in Battery Settings (bottom right). Move the slider to the far right for high performance.
 
+### Do not use "hosts" file.
+Custom hosts file entries utilize more and more CPU usage as the file gets larger by the system DNS resolver. If the hosts file is too large, DNS resolution will be delayed. This is especially noticeable on low end mobile CPUs such as Intel Sandybridge.<br>
+Try to avoid huge hosts file entries.
+
 ## Hardware Upgrades
 Ultimately, for a stable and pretty responsive system, you're going to want 8GB of DDR3 1600MHz or DDR4 2400MHz minimum of memory. You'll want a SATA3 SSD that is 100GB minimum as well. These are enough for simple games like Minecraft and Terraria, Office 365 Usage, and medium-high JavaScript loading for browsers like Google Chrome and Firefox.
 
 ## Browser Extensions
 
 You'll normally not want to use any, but because the Web is plagued with crazy amounts of JavaScript and advertisements, a simple adblocker will save loads of JavaScript loading.<br>
-Use [uBlock Origin](https://github.com/gorhill/uBlock). **NOT uBlock.org**
+Use [uBlock Origin](https://github.com/gorhill/uBlock). **NOT uBlock.org**<br>
+Avoid installing too many adlists as they can increase memory and CPU usage.
