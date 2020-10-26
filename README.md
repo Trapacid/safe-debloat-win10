@@ -81,3 +81,14 @@ Search for "Command Prompt". Right click it and Run it as an Administrator. Then
 - `sfc /scannow`
 
 Reboot your PC afterwards. See [here](https://docs.microsoft.com/en-us/troubleshoot/windows-server/deployment/fix-windows-update-errors) for more details.
+
+### 4. Enable high performance power profile in Power settings.
+If you don't mind the extra power usage, you should enable High Performance power profile in Battery Settings (bottom right). Move the slider to the far right for high performance.
+
+## Hardware Upgrades
+Ultimately, for a stable and pretty responsive system, you're going to want 8GB of DDR3 1600MHz or DDR4 2400MHz minimum of memory. You'll want a SATA3 SSD that is 100GB minimum as well. These are enough for simple games like Minecraft and Terraria, Office 365 Usage, and medium-high JavaScript loading for browsers like Google Chrome and Firefox.
+
+## Browser Extensions
+
+You'll normally not want to use any, but because the Web is plagued with crazy amounts of JavaScript and advertisements, a simple adblocker will save loads of JavaScript loading.<br>
+Use [uBlock Origin](https://github.com/gorhill/uBlock). **NOT uBlock.org**
