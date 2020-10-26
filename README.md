@@ -97,15 +97,22 @@ Reboot your PC afterwards. See [here](https://docs.microsoft.com/en-us/troublesh
 If you don't mind the extra power usage, you should enable High Performance power profile in Battery Settings (bottom right). Move the slider to the far right for high performance.<br>
 Note: This disables hibernation. Ignore if you're on an SSD.
 
+<hr>
+# Warnings and notices about some things.
+
 ### Do not use "hosts" file.
 Custom hosts file entries utilize more and more CPU usage as the file gets larger by the system DNS resolver. If the hosts file is too large, DNS resolution will be delayed. This is especially noticeable on low end mobile CPUs such as Intel Sandybridge.<br>
 Try to avoid huge hosts file entries.
 
-## Hardware Upgrades
+### Hardware Upgrades
 Ultimately, for a stable and pretty responsive system, you're going to want 8GB of DDR3 1600MHz or DDR4 2400MHz minimum of memory. You'll want a SATA3 SSD that is 100GB minimum as well. These are enough for simple games like Minecraft and Terraria, Office 365 Usage, and medium-high JavaScript loading for browsers like Google Chrome and Firefox.
 
-## Browser Extensions
-
+### Browser Extensions
 You'll normally not want to use any, but because the Web is plagued with crazy amounts of JavaScript and advertisements, a simple adblocker will save loads of JavaScript loading.<br>
 Use [uBlock Origin](https://github.com/gorhill/uBlock). **NOT uBlock.org**<br>
 Avoid installing too many adlists as they can increase memory and CPU usage.
+
+# DO NOT DISABLE USER ACCOUNT CONTROL.
+UAC is not just a silly dialog to bother you. There is a lot of technical background behind UAC. Please read about it here: https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works
+
+There are absolutely no performance improvements behind disabling UAC and only make your system more vulnerable to malware.
