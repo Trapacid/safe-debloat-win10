@@ -53,7 +53,8 @@ Unpin all tiles from Start Menu.
 `Settings > System > Notifications & actions > Show me tips about Windows > OFF`<br>
 `Settings > System > Offline maps > Automatically update maps > OFF`<br>
 `Settings > Gaming > Xbox Game Bar > OFF` (There are discussions and debates about whether Game Mode actually helps. Honestly, if you intend on playing games, leave it enabled. Otherwise, disable it.)<br>
-`Settings > Devices > AutoPlay > Use AutoPlay for all media and devices > OFF`
+`Settings > Devices > AutoPlay > Use AutoPlay for all media and devices > OFF`<br>
+If you don't use OneDrive or Skype, uninstall it.
 
 ### 6. Opt-out of personalized telemetry.
 Again, please for crying out loud, there is no need to run a debloat script to add unnecessary registry keys or group policy edits.
@@ -93,7 +94,8 @@ Search for "Command Prompt". Right click it and Run it as an Administrator. Then
 Reboot your PC afterwards. See [here](https://docs.microsoft.com/en-us/troubleshoot/windows-server/deployment/fix-windows-update-errors) for more details.
 
 ### 4. Enable high performance power profile in Power settings.
-If you don't mind the extra power usage, you should enable High Performance power profile in Battery Settings (bottom right). Move the slider to the far right for high performance.
+If you don't mind the extra power usage, you should enable High Performance power profile in Battery Settings (bottom right). Move the slider to the far right for high performance.<br>
+Note: This disables hibernation. Ignore if you're on an SSD.
 
 ### Do not use "hosts" file.
 Custom hosts file entries utilize more and more CPU usage as the file gets larger by the system DNS resolver. If the hosts file is too large, DNS resolution will be delayed. This is especially noticeable on low end mobile CPUs such as Intel Sandybridge.<br>
