@@ -117,14 +117,17 @@ Custom hosts file entries utilize more and more CPU usage as the file gets large
 Try to avoid huge hosts file entries.
 
 ### Hardware Upgrades
-Ultimately, for a stable and pretty responsive system, you're going to want 8GB of DDR3 1600MHz or DDR4 2400MHz minimum of memory. You'll want a SATA3 SSD that is 100GB minimum as well. These are enough for simple games like Minecraft and Terraria, Office 365 Usage, and medium-high JavaScript loading for browsers like Google Chrome and Firefox.
+Ultimately, for a stable and pretty responsive system, you're going to want 8GB of DDR3 1333MHz or DDR4 2400MHz minimum of memory. You'll want a SATA3 SSD that is 100GB minimum as well. And, at least an Ivybridge quad core CPU. Or a Haswell dual core.. These are enough for simple games like Minecraft and Terraria, Office 365 Usage, and medium-high JavaScript loading for browsers like Google Chrome and Firefox.
 
 ### Browser Extensions
 You'll normally not want to use any, but because the Web is plagued with crazy amounts of JavaScript and advertisements, a simple adblocker will save loads of JavaScript loading.<br>
 Use [uBlock Origin](https://github.com/gorhill/uBlock). **NOT uBlock.org**<br>
 Avoid installing too many adlists as they can increase memory and CPU usage.
 
+## To use or to not use Hardware Acceleration?
+Depends. Try to use hardware acceleration to take some load off your CPU and put your GPU to use. Obviously, disable forms of hardware acceleration if you intend on gaming at the cost of possibly more CPU usage. It just depends on how the application uses your resources. Spotify, for example, will try to use hardware acceleration but if disabled, it will simply use the CPU when redrawing the screen where as the GPU could be doing that. Chrome will use hardware acceleration for webpage painting and video playback.
+
 # DO NOT DISABLE USER ACCOUNT CONTROL.
-UAC is not just a silly dialog to bother you. There is a lot of technical background behind UAC. Please read about it here: https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works
+UAC is not just a silly dialog to bother you. There is a lot of technical background behind UAC, especially the dialogs and secure desktop. Please read about it here: https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works
 
 There are absolutely no performance improvements behind disabling UAC and only make your system more vulnerable to malware.
