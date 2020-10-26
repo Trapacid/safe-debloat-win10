@@ -41,7 +41,7 @@ This is a huge memory saver:<br>
 Disables some visual effects to free up memory.<br>
 `Search "advanced system settings" > Performance Settings > Adjust for best performance`<br>
 Disable everything **except** for smooth font. Unless you're fine with ugly fonts.<br>
-`Settings > Ease of Access > Other options > OFF "Play animation" and OFF "Show background"`<br>
+`Settings > Ease of Access > Vision > Display > Disable animations, transparency, and automatically hide scroll bars in Windows.<br>
 `Settings > Personalization > Colors > OFF "Make Start, taskbar... transparent" and OFF others of your choice`<br>
 `Settings > Personalization > Start > Show more tiles OFF, Occasionaly show suggestions OFF`<br>
 Use a static wallpaper, preferably a simple color.<br>
@@ -70,9 +70,20 @@ Settings > Privacy:
 `Store > user icon > Settings > Update apps automatically > OFF`<br>
 `Store > user icon > Settings > Show products on tile > OFF`
 
+### 8. Disabling extra Settings
+`Settings > Updates & security > Windows Update > Advanced options > Disable everything.` *Do NOT pause updates.*<br>
+`Settings > Updates & security > Delivery Optimisation > Untick "Allow downloads from other PCs` **OR** Set it to only `PCs on my local network.` if you have more Windows 10 machines on your LAN.<br>
+`Settings > Updates & security > Find my device > Change it to OFF.` Set this to on if you travel to public places or high risk areas frequently for device locating. Device locating is not available if you do not link your computer to a Microsoft account, in which you would disable it.<br>
+`Settings > Updates & security > For developers > Disable Developer Mode (disables some security features if it's enabled.)` This disables stuff such as Device Portal and Device discovery which are not needed and reduces unnecessary daemons (services).
+
+`Settings > Search > Permissions & History > SafeSearch off. Also disable all ticks below (Cloud content search and History).`<br>
+`Settings > Search > Searching Windows > Find my Files: Classic` (Disables unnecessary backgroud indexing. An SSD should offer pretty fast searching anyways.)<br>
+
+`Settings > Time & Language > Date & time > Disable setting time and time zones automatically. Sync it once.`
+
 <hr>
 
-## Cleaning up
+## Cleaning and tweaking
 
 ### 1. Defragment your hard drive/TRIM your SSD.
 No, you absolutely do not need to do anything in the command prompt to TRIM your SSD. Windows 10 natively detects SSDs.
