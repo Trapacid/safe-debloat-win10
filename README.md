@@ -98,7 +98,8 @@ If you don't mind the extra power usage, you should enable High Performance powe
 Note: This disables hibernation. Ignore if you're on an SSD.
 
 <hr>
-# Warnings and notices about some things.
+
+## Warnings and notices about some things.
 
 ### Do not use "hosts" file.
 Custom hosts file entries utilize more and more CPU usage as the file gets larger by the system DNS resolver. If the hosts file is too large, DNS resolution will be delayed. This is especially noticeable on low end mobile CPUs such as Intel Sandybridge.<br>
